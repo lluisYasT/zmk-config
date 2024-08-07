@@ -16,7 +16,7 @@ LSFT │  B   P   L   D   V  │ │  -+   U   O   Y   F  │ RSFT
                         bindings = <
 
 &ak_x  &ak_w   &ak_m   &ak_g   &ak_j           &HashDllr   &DotColn    &SlshStar   &DqtLbkt    &SqtRbkt
-&heml LCTRL S &hrm_c LALT C   &hml LGUI N  &lt l_sym T &lt l_num K    &CmmaSemi   &lt l_sym A &hrm_e RGUI E  &hrm_i RALT I  &hmr RCTRL H
+&hml LCTRL S &hrm_c LALT C   &hml LGUI N  &lt l_sym T &lt l_num K    &CmmaSemi   &lt l_sym A &hrm_e RGUI E  &hrm_i RALT I  &hmr RCTRL H
 &ak_b &ak_p   &kp L   &lt l_fun  D  &ak_v       &MinusPlus  &lt l_fun U       &ak_o       &ak_y   &kp F
 
                         &mm_bspc_del &hml LSHFT R      &hmr RSHFT SPACE &lt l_nav RETURN
