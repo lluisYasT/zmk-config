@@ -15,8 +15,8 @@ LSFT │  B   P   L   D   V  │ │  -+   U   O   Y   F  │ RSFT
                         label = "HD-Vb";
                         bindings = <
 
-&ak_x  &ak_w   &ak_m   &ak_g   &ak_j           &HashDllr   &DotColn    &SlshStar   &DqtLbkt    &SqtRbkt
-&hml LCTRL S &hrm_c LALT C   &hml LGUI N  &lt l_sym T &lt l_num K    &CmmaSemi   &lt l_sym A &hrm_e RGUI E  &hrm_i RALT I  &hmr RCTRL H
+&ak_x  &kp W   &ak_m   &ak_g   &ak_j           &HashDllr   &DotColn    &SlshStar   &DqtLbkt    &SqtRbkt
+&hml LGUI S &hrm_c LALT C   &hml LCTRL N  &lt l_sym T &lt l_num K    &CmmaSemi   &lt l_sym A &hrm_e RCTL E  &hrm_i RALT I  &hmr RGUI H
 &ak_b &ak_p   &kp L   &lt l_fun  D  &ak_v       &MinusPlus  &lt l_fun U       &ak_o       &ak_y   &kp F
 
                         &mm_bspc_del &hml LSHFT R      &hmr RSHFT SPACE &lt l_nav RETURN
