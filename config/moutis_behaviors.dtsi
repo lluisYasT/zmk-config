@@ -36,7 +36,7 @@ behaviors {
             compatible = "zmk,behavior-mod-morph";
             label = "MM_BACKSPACE_DELETE";
             #binding-cells = <0>;
-            bindings = <&lt l_fun BACKSPACE>, <&kp DELETE>;
+            bindings = <&lt l_nav BACKSPACE>, <&kp DELETE>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         hm: homerow_mods { // use on either hand
@@ -270,7 +270,7 @@ behaviors {
             compatible = "zmk,behavior-mod-morph";
             label = "comma_semi";
             #binding-cells = <0>;
-            bindings = <&kp CMMA>, <&typeSemi>;
+            bindings = <&lt l_num CMMA>, <&typeSemi>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         DotColn: DotColn {

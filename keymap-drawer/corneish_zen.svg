@@ -207,7 +207,9 @@ path.combo {
 <g transform="translate(532, 98)" class="key keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">CMMA</text>
-<text x="0" y="-24" class="key shifted"><tspan style="font-size: 78%">&amp;typeSemi</tspan></text>
+<a href="#x_x">
+<text x="0" y="24" class="key hold layer-activator">21</text>
+</a><text x="0" y="-24" class="key shifted"><tspan style="font-size: 78%">&amp;typeSemi</tspan></text>
 </g>
 <g transform="translate(588, 91)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -296,7 +298,7 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
 <a href="#x_x">
-<text x="0" y="24" class="key hold layer-activator">22</text>
+<text x="0" y="24" class="key hold layer-activator">23</text>
 </a><text x="0" y="-24" class="key shifted">DELETE</text>
 </g>
 <g transform="translate(351, 224) rotate(30.0)" class="key keypos-38">
@@ -6193,9 +6195,9 @@ path.combo {
 <tspan x="0" dy="-0.6em">Alt+</tspan><tspan x="0" dy="1.2em">→</tspan>
 </text>
 </g>
-<g transform="translate(532, 98)" class="key keypos-18">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
+<g transform="translate(532, 98)" class="key held keypos-18">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
+<text x="0" y="0" class="key held tap">
 <tspan x="0" dy="-0.6em" style="font-size: 88%">KP</tspan><tspan x="0" dy="1.2em" style="font-size: 88%">MULTIPLY</tspan>
 </text>
 </g>
@@ -6584,9 +6586,9 @@ path.combo {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">F14</text>
 </g>
-<g transform="translate(532, 98)" class="key keypos-18">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">CMMA</text>
+<g transform="translate(532, 98)" class="key held keypos-18">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
+<text x="0" y="0" class="key held tap">CMMA</text>
 </g>
 <g transform="translate(588, 91)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -6964,13 +6966,13 @@ path.combo {
 <a href="#x_x">
 <text x="0" y="0" class="key tap layer-activator">24</text>
 </a></g>
-<g transform="translate(286, 213) rotate(15.0)" class="key keypos-37">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 64%">&amp;S_AppSwit…</tspan></text>
+<g transform="translate(286, 213) rotate(15.0)" class="key held keypos-37">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
+<text x="0" y="0" class="key held tap"><tspan style="font-size: 64%">&amp;S_AppSwit…</tspan></text>
 </g>
-<g transform="translate(351, 224) rotate(30.0)" class="key held keypos-38">
-<rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key held"/>
-<text x="0" y="0" class="key held tap"><tspan style="font-size: 70%">&amp;AppSwitch</tspan></text>
+<g transform="translate(351, 224) rotate(30.0)" class="key keypos-38">
+<rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
+<text x="0" y="0" class="key tap"><tspan style="font-size: 70%">&amp;AppSwitch</tspan></text>
 </g>
 <g transform="translate(489, 224) rotate(-30.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
@@ -7167,9 +7169,9 @@ path.combo {
 <tspan x="0" dy="-0.6em">BRI</tspan><tspan x="0" dy="1.2em">UP</tspan>
 </text>
 </g>
-<g transform="translate(532, 98)" class="key keypos-18">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
+<g transform="translate(532, 98)" class="key held keypos-18">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
+<text x="0" y="0" class="key held tap">
 <tspan x="0" dy="-0.6em">BRI</tspan><tspan x="0" dy="1.2em">UP</tspan>
 </text>
 </g>
