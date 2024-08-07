@@ -110,7 +110,7 @@ LB5 │  V   P   L   D   /* │ │  -+   U   O   Y   F  │ RB5
 #define l_nav   23
 #define l_cfg   24
 
-#define my_tapping_term 100
+#define my_tapping_term 140
 #define my_quick_tapping_term 90
 #define my_ak_delay 40
 
