@@ -2,7 +2,7 @@
 *
 * Copyright (c) 2021 lowprokb.ca
 * SPDX-License-Identifier: MIT
-* 
+*
 */
 
 
@@ -52,23 +52,24 @@ COMBO_LAYER(capslk, &kp CAPS, LM3 LM2 RM2 RM3, l_alpha) // CAPS LOCK
 //
 // Editing actions (&whitespace)
 //
-COMBO_ANY(Gent, &kp LG(RETURN), LB2 LB1 LB0)
+COMBO_ANY(Gent, &kp LC(RETURN), LB2 LB1 LB0)
 COMBO_ANY(entr, &kp RETURN,     LB1 LB0)
 COMBO_ANY(tab,  &kp TAB,        LT4 LT3)
 COMBO_ANY(stab, &kp LS(TAB),    LT4 LT3 LT2)
 COMBO_ANY(spce, &kp SPACE,      LM1 LM0)
 COMBO_ANY(esc,  &kp ESC,        LM4 LM1)
-COMBO_ANY(sall, &kp LG(A),      LB4 LB1)
+COMBO_ANY(sall, &kp LC(A),      LB4 LB1)
 COMBO_LAYER(selword, &m_selword,  LB4 LB0, l_alpha)
-COMBO_ANY(undo, &kp LG(Z),      LB4 LB3)
-COMBO_ANY(redo, &kp LG(LS(Z)),  LB4 LB3 LB2)
-COMBO_ANY(copy, &lk LG(X) LG(C), LB3 LB2)
-COMBO_ANY(pste, &lk LG(LS(LA(V))) LG(V), LB2 LB1)
-COMBO_LAYER(cloz, &kp LG(W),      LM3 LB3, l_alpha)
-COMBO_LAYER(new,  &kp LG(N),      LM2 LB2, l_alpha)
-COMBO_LAYER(open, &kp LG(O),      LM1 LB1, l_alpha)
-COMBO_LAYER(quit, &kp LG(Q),      LM0 LB0, l_alpha)
+COMBO_ANY(undo, &kp LC(Z),      LB4 LB3)
+COMBO_ANY(redo, &kp LC(LS(Z)),  LB4 LB3 LB2)
+COMBO_ANY(copy, &lk LC(X) LC(C), LB3 LB2)
+COMBO_ANY(pste, &lk LC(LS(LA(V))) LC(V), LB2 LB1)
+COMBO_LAYER(cloz, &kp LC(W),      LM3 LB3, l_alpha)
+COMBO_LAYER(new,  &kp LC(N),      LM2 LB2, l_alpha)
+COMBO_LAYER(open, &kp LC(O),      LM1 LB1, l_alpha)
+COMBO_LAYER(quit, &kp LC(Q),      LM0 LB0, l_alpha)
 COMBO_LAYER(findsel, &m_findsel,  LM4 LB0, l_alpha)
+COMBO_LAYER(prntsel, &kp LA(PRINTSCREEN), LT3 LT2 LT1 l_alpha)
 
 //
 // type a glyph (tiny board accommodation)
@@ -87,6 +88,7 @@ COMBO_LAYER(typeEqual, &lk PRCNT EQUAL,   RB2 RB3, l_alpha) // = (percent if hel
 COMBO_LAYER(typeNdash, &lk LA(LS(MINUS)) LA(MINUS), RB0 RB1, l_alpha) // N-dash (M-dash if held)
 COMBO_LAYER(typeMdash, &kp LA(LS(MINUS)), RB0 RB2, l_alpha) // M-dash (minus)
 COMBO_LAYER(typeTilde, &kp TILDE,   RB1 RB4, l_alpha) // tilde (not dead key)
+COMBO_LAYER(typePipe, &kp PIPE, RB1 RB2, l_alpha) // |
 
 COMBO_LAYER(ligAE, &kp LA(APOS),    RM1 RB1, l_alpha) // ligature æ
 COMBO_LAYER(ligOE, &kp LA(Q),       RM2 RB2, l_alpha) // ligature œ
@@ -96,7 +98,7 @@ COMBO_LAYER(diacGrave, &lk_E_grave E LA(GRAVE), RM2 RM3, l_alpha) // ` (È if he
 COMBO_LAYER(diacAcute, &lk_E_acute E LA(N6),  RM1 RM3, l_alpha) // ˆ (Ê if held)
 COMBO_LAYER(diacMacron, &lk_O_macron E LA(A),  RM2 RM4, l_alpha) // ¯ (ō if held)
 COMBO_LAYER(diacCirc, &lk_A_ring A LA(K),    RM1 RM4, l_alpha) // ˚ (Å if held)
-COMBO_LAYER(diacUmlaut, &lk_U_umlaut U LA(U),  RB1 RB2, l_alpha) // ¨ (Ü if held)
+//COMBO_LAYER(diacUmlaut, &lk_U_umlaut U LA(U),  RB1 RB2, l_alpha) // ¨ (Ü if held)
 COMBO_LAYER(diacCedille, &lk_C_cedille C LA(C),  LM4 LM2, l_alpha) // ¸ (ç if held)
 
 //
