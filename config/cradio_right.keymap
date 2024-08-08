@@ -5,5 +5,5 @@
 *
 */
 
-#include "boards/arm/cradio/cradio_broken_pins.dtsi"
+#include "boards/arm/cradio/cradio_broken_pins_right.dtsi"
 #include "boards/arm/cradio/cradio.keymap"
