@@ -69,7 +69,7 @@ COMBO_LAYER(new,  &kp LC(N),      LM2 LB2, l_alpha)
 COMBO_LAYER(open, &kp LC(O),      LM1 LB1, l_alpha)
 COMBO_LAYER(quit, &kp LC(Q),      LM0 LB0, l_alpha)
 COMBO_LAYER(findsel, &m_findsel,  LM4 LB0, l_alpha)
-COMBO_LAYER(prntsel, &kp LA(PRINTSCREEN), LT3 LT2 LT1 l_alpha)
+COMBO_LAYER(prntsel, &kp LA(PRINTSCREEN), LT3 LT2 LT1, l_alpha)
 
 //
 // type a glyph (tiny board accommodation)
