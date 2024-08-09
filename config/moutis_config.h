@@ -112,7 +112,7 @@ LB5 │  V   P   L   D   /* │ │  -+   U   O   Y   F  │ RB5
 
 #define my_tapping_term 280
 #define my_quick_tapping_term 175
-#define my_require_prior_idle 150
+#define my_require_prior_idle_ms 150
 #define my_ak_delay 40
 
 &mt {
