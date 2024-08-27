@@ -1,9 +1,0 @@
-/*
-*
-* Copyright (c) 2021 lowprokb.ca
-* SPDX-License-Identifier: MIT
-*
-*/
-
-#include "boards/arm/cradio/cradio_broken_pins.dtsi"
-#include "boards/arm/cradio/cradio.keymap"
