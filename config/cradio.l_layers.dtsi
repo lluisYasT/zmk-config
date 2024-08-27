@@ -5,7 +5,7 @@
 //                                       Symbol & math
 //╭────────────────────────────────────────────╮ ╭──────────────────────────────────────────╮
 //|    Z   |    Q    | ScrCp | SelCp |   ESC   | |   ¢   |    $   |    €   |    £   |   ¥   |
-//|    <   |    [    |   (   |   {   |   TAB   | |   ¡   |    *   |    =   |    +   |   /   |
+//|    <   |    [    |   (   |   {   |   TAB   | |   ¡   |    *   |    =   |    +   |   \   |
 //|    >   |    ]    |   )   |   }   |   RET   | |   _   |    |   |    &   |    ^   |   %   |
 //╰──────────────────╮       |  BKSP |   DEL   | |       |    °   |    ·   ╭────────────────╯
 //                   ╰─────────────────────────╯ ╰─────────────────────────╯
@@ -13,7 +13,7 @@
                     label = "l_sym";
                     bindings = <
 &kp Z &kp Q &kp LG(PRINTSCREEN) &kp LG(LS(PRINTSCREEN)) &kp ESC             &kp RA(N4) &kp DLLR  &kp LA(LS(N2)) &kp LA(N3) &kp RA(Y)
-&lk_ltgt GT LT  &lk_bkt RBKT LBKT &lk_par RPAR LPAR &lk_brc RBRC LBRC &kp TAB  &kp LS(UNDERSCORE) &mt RSHFT STAR  &mt RGUI EQUAL &mt RALT PLUS  &mt LCTRL FSLH
+&lk_ltgt GT LT  &lk_bkt RBKT LBKT &lk_par RPAR LPAR &lk_brc RBRC LBRC &kp TAB  &kp LS(UNDERSCORE) &mt RSHFT STAR  &mt RGUI EQUAL &mt RALT PLUS  &mt LCTRL BSLH
 &kp GT  &kp RBKT &kp RPAR &kp RBRC &kp RETURN                     &kp UNDERSCORE  &kp PIPE  &kp AMPS     &kp CARET &kp PRCNT
                 &kp LA(BSPC)   &hml LSHFT DEL                     &kp RSHFT      &kp LA(N0)
                     >;
