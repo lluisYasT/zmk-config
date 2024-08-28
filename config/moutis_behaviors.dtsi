@@ -337,7 +337,14 @@ behaviors {
             compatible = "zmk,behavior-mod-morph";
             label = "Bspc_Del";
             #binding-cells = <0>;
-            bindings = <&kp BSPC>, <&kp DEL>;
+            bindings = <&Bspc_fun>, <&kp DEL>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+        Bspc_fun: Bspc_fun {
+            compatible = "zmk,behavior-tap-dance";
+            label = "Bspc_fun";
+            #binding-cells = <0>;
+            tapping-term-ms = <my_tapping_term>;
+            bindings = <&lt l_fun BSPC>, <&kp BSPC>;
         };
 };
