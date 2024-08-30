@@ -3,7 +3,7 @@
 /*  Base (alpha) Layer  Hands Down Vibranium-Vb
     Building for a 36/42 key board
      ╭─────────────────────╮ ╭──────────────────────╮
-ESC  │  X   W   M   G   J  │ │  #$  .:  /*   ;  '   │ BSP
+ESC  │  X   W   M   G   J  │ │  #$  .:  /*  "«  '»  │ BSP
 TAB  │  S   C   N   T   K  | |  ,;   A   E   I   H  │ Tg(Num)
 LSFT │  B   P   L   D   V  │ │  -+   U   O   Y   F  │ RSFT
      ╰──────╮  App BSP  R  │ │  SPC RET TAB  ╭──────╯
@@ -14,12 +14,10 @@ LSFT │  B   P   L   D   V  │ │  -+   U   O   Y   F  │ RSFT
                 l_alpha {
                         label = "HD-Vb";
                         bindings = <
-
 &kp X  &kp W   &kp M   &kp G   &kp  J           &HashDllr   &DotColn    &SlshStar   &kp SEMICOLON    &kp APOSTROPHE
-&hml LGUI S &hml LALT C   &hml LCTRL N  &hml LSHIFT T &lt l_num K    &CmmaSemi   &hmr RSHIFT A &hmr RCTL E  &hmr RALT I  &hmr RGUI H
+&hml LGUI S &hml LALT C   &hml LCTRL N  &lt l_sym T &lt l_num K    &CmmaSemi   &lt l_sym A &hmr RCTL E  &hmr RALT I  &hmr RGUI H
 &kp B &kp P   &kp L   &lt l_fun  D  &kp V              &MinusPlus  &lt l_fun U       &kp O       &kp Y   &kp F
-
-                        &mm_bspc_del &lt l_nav R      &lt l_sym SPACE &lt l_nav RETURN
+                        &mm_bspc_del &hml LSHIFT R      &hmr RSHIFT SPACE &lt l_nav RETURN
                         >;
                 };
 
