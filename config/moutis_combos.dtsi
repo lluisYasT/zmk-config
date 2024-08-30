@@ -42,8 +42,6 @@ combos {
 //
 // control/modes
 //
-COMBO_ANY(enmode, &kp LANG2,    LM3 LM2 LM1)
-COMBO_ANY(jpmode, &kp LANG1,    RM1 RM2 RM3)
 COMBO_ANY(settings, &mo l_cfg,  RH1 RH2) // get the settings/media layer from anywhere
 COMBO_ANY(appswitch, &AppSwitch, LT1 LT0) // App switch
 COMBO_LAYER(docaps, &caps_word, LM2 LM1 RM1 RM2, l_alpha) // CAPSWORD
@@ -84,9 +82,7 @@ COMBO_LAYER(typeGrav, &kp GRAVE,    RT3 RT4, l_alpha)
 COMBO_LAYER(typeatMk, &lk LS(LA(SEMI)) AT_SIGN,  RT0 RT1, l_alpha) // @ (№ if held)
 COMBO_LAYER(typeUnder, &kp UNDER,   RB1 RB3, l_alpha) // _
 COMBO_LAYER(typeEqual, &lk PRCNT EQUAL,   RB2 RB3, l_alpha) // = (percent if held)
-COMBO_LAYER(typeNdash, &lk LA(LS(MINUS)) LA(MINUS), RB0 RB1, l_alpha) // N-dash (M-dash if held)
-COMBO_LAYER(typeMdash, &kp LA(LS(MINUS)), RB0 RB2, l_alpha) // M-dash (minus)
-COMBO_LAYER(typeTilde, &kp TILDE,   RB1 RB4, l_alpha) // tilde (not dead key)
+.OMBO_LAYER(typeTilde, &kp TILDE,   RB1 RB4, l_alpha) // tilde (not dead key)
 COMBO_LAYER(typePipe, &kp PIPE, RB1 RB2, l_alpha) // |
 
 //
