@@ -36,7 +36,7 @@ behaviors {
             compatible = "zmk,behavior-mod-morph";
             label = "MM_BACKSPACE_DELETE";
             #binding-cells = <0>;
-            bindings = <&lt l_nav BACKSPACE>, <&kp DELETE>;
+            bindings = <&Bspc_fun>, <&kp DELETE>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         hm: homerow_mods { // use on either hand
@@ -202,6 +202,6 @@ behaviors {
             label = "Bspc_fun";
             #binding-cells = <0>;
             tapping-term-ms = <my_tapping_term>;
-            bindings = <&lt l_fun BSPC>, <&kp BSPC>;
+            bindings = <&lt l_nav BSPC>, <&kp BSPC>;
         };
 };
