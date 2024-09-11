@@ -1,0 +1,9 @@
+/*
+*
+* Copyright (c) 2021 lowprokb.ca
+* SPDX-License-Identifier: MIT
+*
+*/
+
+#include "cradio_right.dtsi"
+#include "cradio.keymap"
