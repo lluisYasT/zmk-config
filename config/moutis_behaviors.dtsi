@@ -48,6 +48,7 @@ behaviors {
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
         };
+        /*
         hmr: homerow_mods_right { // use on right hand to mod left
             compatible = "zmk,behavior-hold-tap";
             label = "homerow_mods";
@@ -72,6 +73,7 @@ behaviors {
             hold-trigger-key-positions = <KEYS_R THUMBS>; // right hand allowed
             hold-trigger-on-release;
         };
+        */
         lk: lk {
             compatible = "zmk,behavior-hold-tap";
             label = "lk";

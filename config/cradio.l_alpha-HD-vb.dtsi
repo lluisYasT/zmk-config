@@ -1,5 +1,18 @@
 #define ______  &trans
 
+#define MAKE_HRM(NAME, HOLD, TAP, TRIGGER_POS) \
+    ZMK_HOLD_TAP(NAME, \
+        flavor = "balanced"; \
+        tapping-term-ms = <280>; \
+        quick-tap-ms = <QUICK_TAP_MS>; \
+        require-prior-idle-ms = <150>; \
+        bindings = <HOLD>, <TAP>; \
+        hold-trigger-key-positions = <TRIGGER_POS>; \
+        hold-trigger-on-release; \
+    )
+MAKE_HRM(hml, &kp, &kp, KEYS_R THUMBS)  // left-hand HRMs
+MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS)  // right-hand HRMs
+
 /*  Base (alpha) Layer  Hands Down Vibranium-Vb
     Building for a 36/42 key board
      ╭─────────────────────╮ ╭──────────────────────╮
@@ -15,9 +28,9 @@ LSFT │  B   P   L   D   V  │ │  -+   U   O   Y   F  │ RSFT
                         label = "HD-Vb";
                         bindings = <
 &kp X  &kp W   &kp M   &kp G   &kp  J           &HashDllr   &DotColn    &SlshStar   &kp SEMICOLON    &kp APOSTROPHE
-&hml LGUI S &hml LALT C   &hml LCTRL N  &lt l_sym T &lt l_num K    &CmmaSemi   &lt l_sym A &hmr RCTL E  &hmr RALT I  &hmr RGUI H
+&hml LGUI S &hml LALT C   &hml LSHIFT N  &hml LCTRL T &lt l_num K    &CmmaSemi   &hmr RCTL l_sym A &hmr RSHIFT E  &hmr RALT I  &hmr RGUI H
 &kp B &kp P   &kp L   &lt l_fun  D  &kp V              &MinusPlus  &lt l_fun U       &kp O       &kp Y   &kp F
-                        &mm_bspc_del &hml LSHIFT R      &hmr RSHIFT SPACE &lt l_nav RETURN
+                        &mm_bspc_del &lt l_sym R      &lt l_sym SPACE &lt l_nav RETURN
                         >;
                 };
 
