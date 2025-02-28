@@ -52,10 +52,11 @@ behaviors {
             compatible = "zmk,behavior-hold-tap";
             label = "homerow_mods";
             #binding-cells = <2>;
-            tapping-term-ms = <my_tapping_term>;
+            tapping-term-ms = <280>;
             flavor = "balanced";
-            require-prior-idle-ms = <my_require_prior_idle_ms>;
-            bindings = <&kp>, <&kp>;
+            require-prior-idle-ms = <150>;
+            quick-tap-ms = <my_quick_tapping_term>
+            bindings = <HOLD>, <TAP>;
             hold-trigger-key-positions = <KEYS_L THUMBS>; // left hand allowed
             hold-trigger-on-release;
         };
@@ -63,10 +64,11 @@ behaviors {
             compatible = "zmk,behavior-hold-tap";
             label = "homerow_mods";
             #binding-cells = <2>;
-            tapping-term-ms = <my_tapping_term>;
+            tapping-term-ms = <280>;
             flavor = "balanced";
-            require-prior-idle-ms = <my_require_prior_idle_ms>;
-            bindings = <&kp>, <&kp>;
+            require-prior-idle-ms = <150>;
+            quick-tap-ms = <my_quick_tapping_term>
+            bindings = <HOLD>, <TAP>;
             hold-trigger-key-positions = <KEYS_R THUMBS>; // right hand allowed
             hold-trigger-on-release;
         };
