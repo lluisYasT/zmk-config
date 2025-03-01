@@ -25,8 +25,6 @@
 #include "moutis_macros.dtsi"
 #include "moutis_combos.dtsi"
 
-#include "zmk-helpers/helper.h"
-
         keymap {
         compatible = "zmk,keymap";
 #include "cradio.l_alpha-HD-vb.dtsi"  // base (alpha) layer (& related adaptive layers)

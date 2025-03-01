@@ -48,14 +48,13 @@ behaviors {
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
         };
-        /*
         hmr: homerow_mods_right { // use on right hand to mod left
             compatible = "zmk,behavior-hold-tap";
             label = "homerow_mods";
             #binding-cells = <2>;
             tapping-term-ms = <280>;
             flavor = "balanced";
-            require-prior-idle-ms = <150>;
+            require-prior-idle-ms = <my_require_prior_idle_ms>;
             quick-tap-ms = <my_quick_tapping_term>;
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <KEYS_L THUMBS>; // left hand allowed
@@ -67,13 +66,12 @@ behaviors {
             #binding-cells = <2>;
             tapping-term-ms = <280>;
             flavor = "balanced";
-            require-prior-idle-ms = <150>;
+            require-prior-idle-ms = <my_require_prior_idle_ms>;
             quick-tap-ms = <my_quick_tapping_term>;
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <KEYS_R THUMBS>; // right hand allowed
             hold-trigger-on-release;
         };
-        */
         lk: lk {
             compatible = "zmk,behavior-hold-tap";
             label = "lk";
