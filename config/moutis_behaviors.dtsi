@@ -52,7 +52,7 @@ behaviors {
             compatible = "zmk,behavior-hold-tap";
             label = "homerow_mods";
             #binding-cells = <2>;
-            tapping-term-ms = <280>;
+            tapping-term-ms = <my_tapping_term>;
             flavor = "balanced";
             require-prior-idle-ms = <my_require_prior_idle_ms>;
             quick-tap-ms = <my_quick_tapping_term>;
@@ -64,7 +64,7 @@ behaviors {
             compatible = "zmk,behavior-hold-tap";
             label = "homerow_mods";
             #binding-cells = <2>;
-            tapping-term-ms = <280>;
+            tapping-term-ms = <my_tapping_term>;
             flavor = "balanced";
             require-prior-idle-ms = <my_require_prior_idle_ms>;
             quick-tap-ms = <my_quick_tapping_term>;
@@ -203,8 +203,7 @@ behaviors {
             compatible = "zmk,behavior-tap-dance";
             label = "Bspc_fun";
             #binding-cells = <0>;
-            tapping-term-ms = <my_tapping_term>;
+            tapping-term-ms = <300>;
             bindings = <&lt l_nav BSPC>, <&kp BSPC>;
-            quick-tap-ms = <my_quick_tapping_term>;
         };
 };
