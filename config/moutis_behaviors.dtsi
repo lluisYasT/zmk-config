@@ -205,5 +205,6 @@ behaviors {
             #binding-cells = <0>;
             tapping-term-ms = <my_tapping_term>;
             bindings = <&lt l_nav BSPC>, <&kp BSPC>;
+            quick-tap-ms = <my_quick_tapping_term>;
         };
 };
