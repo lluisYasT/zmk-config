@@ -196,7 +196,7 @@ behaviors {
             compatible = "zmk,behavior-mod-morph";
             label = "Bspc_Del";
             #binding-cells = <0>;
-            bindings = <&lt l_nav BSPC>, <&kp DEL>;
+            bindings = <&Bspc_fun>, <&kp DEL>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         Bspc_fun: Bspc_fun {
