@@ -78,7 +78,7 @@ COMBO_LAYER(typeColn, &lk LA(SEMI) COLON,    RT1 RT3, l_alpha)
 COMBO_LAYER(typeSemi, &kp SEMI,     RM0 RM1, l_alpha)
 COMBO_LAYER(typeExcl, &kp EXCL,     RT1 RT2, l_alpha)
 COMBO_LAYER(typeQues, &kp QMARK,    RT2 RT3, l_alpha)
-COMBO_LAYER(typeGrav, &kp GRAVE,    RT3 RT4, l_alpha)
+COMBO_LAYER(typeGrav, &kp BSPC,    RT3 RT4, l_alpha)
 COMBO_LAYER(typeatMk, &lk LS(LA(SEMI)) AT_SIGN,  RT0 RT1, l_alpha) // @ (№ if held)
 COMBO_LAYER(typeUnder, &kp UNDER,   RB1 RB3, l_alpha) // _
 COMBO_LAYER(typeEqual, &lk PRCNT EQUAL,   RB2 RB3, l_alpha) // = (percent if held)
