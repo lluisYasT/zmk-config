@@ -14,7 +14,7 @@
                 l_sym {
                     label = "l_sym";
                     bindings = <
-&kp Z &kp Q &kp LG(PRINTSCREEN) &kp LG(LS(PRINTSCREEN)) &kp ESC             &kp RA(N4) &kp DLLR  &kp RA(N2) &kp RA(N3) &kp GRAVE
+&kp Z &kp Q &kp LG(PSCRN) &kp LG(LS(PSCRN)) &kp ESC             &kp RA(N4) &kp DLLR  &kp RA(N2) &kp RA(N3) &kp GRAVE
 &lk_ltgt GT LT  &lk_bkt RBKT LBKT &lk_par RPAR LPAR &lk_brc RBRC LBRC &kp TAB  &kp LS(UNDERSCORE) &mt RSHFT STAR  &mt RGUI EQUAL &mt RALT PLUS  &mt LCTRL BSLH
 &kp GT  &kp RBKT &kp RPAR &kp RBRC &kp RETURN                     &kp UNDERSCORE  &kp PIPE  &kp AMPS     &kp CARET &kp PRCNT
                 &kp LA(BSPC)   &hml LSHFT DEL                     &kp RSHFT      &kp LA(N0)
@@ -70,7 +70,7 @@
                 l_nav {
                     label = "l_nav";
                     bindings = <
- &kp RC(W) &kp RC(Q) &kp LG(PRINTSCREEN) &kp LG(LS(PRINTSCREEN)) &kp ESC  &kp LG(EQUAL) &kp HOME &kp UP     &kp PG_UP &none
+ &kp RC(W) &kp RC(Q) &kp LG(PSCRN) &kp LG(LS(PSCRN)) &kp ESC  &kp LG(EQUAL) &kp HOME &kp UP     &kp PG_UP &none
  &sk LCTRL  &sk LALT &sk LGUI &sk LSHFT   &kp RC(F)             &kp LC(LEFT)  &kp LEFT &kp DOWN   &kp RIGHT &kp LC(RIGHT)
  &kp RC(Z)  &kp RC(X) &kp RC(C) &kp RC(V) &kp RC(G)             &kp LC(MINUS) &kp END  &kp LC(N0) &kp PG_DN &none
                    &S_AppSwitch    &AppSwitch        &kp LG(LBKT) &kp LG(RBKT)
